@@ -107,8 +107,7 @@ class E7ADBShopRefresh:
 
         self.storage.addItem('cov.png', 'Covenant bookmark', 184000)
         self.storage.addItem('mys.png', 'Mystic medal', 280000)
-        if self.debug:
-            self.storage.addItem('fb.png', 'Friendship bookmark', 18000)
+        self.storage.addItem('fb.png', 'Friendship bookmark', 18000)
 
     def start(self):
         self.loop_active = True
